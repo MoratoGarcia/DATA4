@@ -1,0 +1,183 @@
+
+/*Estilos generales*/
+@font-face{
+  font-family:Montserrat-Black;
+  src: url(../fonts/Montserrat-Black.ttf);
+}
+@font-face{
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face{
+  font-family: Montserrat-Light;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face{
+  font-family: Montserrat-Regular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face{
+  font-family: Oswald-Bold;
+  src: url(../fonts/Oswald-Bold.ttf);
+}
+@font-face{
+  font-family: Oswald-Light;
+  src: url(../fonts/Oswald-Light.ttf);
+}
+@font-face{
+  font-family: Oswald-Regular;
+  src: url(../fonts/Oswald-Regular.ttf);
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: Oswald-Regular;
+}
+p{
+  font-family: Montserrat-Light;
+}
+/*Iconos de redes sociales*/
+.iconos{
+  width: 2em;
+  margin: .5em;
+}
+/*Logotipo primer div*/
+.logotipo{
+  width: 25%;
+  height: auto;
+  margin: .5em;
+}
+.margin{
+  margin: .5em;
+}
+
+/*Pestañas y menú selector*/
+.second_nav{
+  display: inline-block;
+}
+/*Inicia estilo del navegador multinivel*/
+/*Navegador multinivel*/
+.green{
+  background-color:#008000;
+  color:transparent;
+}
+.dropdown-menu{
+  background-color: #008000;
+  list-style: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-family: Oswald-Regular;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>.open>a{
+    color: #fff;
+    font-family: Oswald-Regular;
+    background-color:#30A331;
+} 
+.dropdown-menu>li>a{
+    color: #fff;
+    font-family: Oswald-Regular;
+    background-color:#30A331;
+}
+.dropdown-menu{
+  background-color:#30A331;
+  } 
+nav{
+  margin-top: 1em;
+}
+nav ul{
+  background-color::#008000;
+  border-color: #000; 
+}
+* {
+  -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+  margin:0;
+}
+
+/*Cabecera imagen Michoacán*/
+.headerimageone {
+  background-image:  url(../img/Michoacan.jpg);
+  background-position: bottom;
+  height:50em;
+  width:100%;
+  background-size:cover;
+  position:relative;
+  z-index:-1;
+}
+#backshape{
+  height: 20em;
+  background-color:#E0E0E0; 
+}
+#backshapeone{
+  height: 20em;
+  background-color: #fff;
+}
+#backshape .wrapper {
+  display:block;
+  float:left;
+  margin:0px auto 200px;
+  width:100%;
+  padding:0 5%;
+  transform:skew(0deg,-5deg);
+-ms-transform:skew(0deg,-10deg);
+-webkit-transform:skew(0deg,-5deg); 
+}
+
+/*Renglón diagonal gris*/
+.Oswald{
+  font-family: Oswald-Regular;
+}
+.col-md-4 li{
+  font-family: Oswald-Regular;
+  margin-top: .3em;
+}
+.gris{
+  margin: .2em;
+  height:.1em;
+  border: 0;
+  color:#c0c0c0;
+  background-color:#c0c0c0;
+}
+.libro{
+  margin-top: -4.5em;
+  width: 75%;
+  height: auto;
+}
+
+/*Estilo de los enlaces del blog*/
+.gray p{
+  background-color: #DCDCDC;
+  padding-bottom: 1em;
+}
+.gray p:hover{
+  background-color: #c0c0c0;
+}
+.gray a{
+  text-decoration: none;
+  color:#000;
+}
+.ploss{
+  padding-bottom: 3em;
+}
+/*Particularidades de la sección de enlaces con foto*/
+
+footer{
+  margin-top: 5em;
+  background-color: #555555;
+  color:#fff;
+  font-size: 1em;
+}
+footer a{
+  color:#fff;
+  font-size: 1em;
+}
+footer a:active,
+footer a:hover{
+color:#fff;}

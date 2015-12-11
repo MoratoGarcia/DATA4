@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Montserrat">
+  <meta name="keyword" content="Formulario">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/font-awesome.css" rel="stylesheet" />
+  <link href="css/adventure-time-theme.css" rel="stylesheet">
+  <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+</head>
+<body class="form">
+
+  <div class="container">
+    <div clas="row">
+      <div class="center">
+        <form class="col-md-8 col-md-offset-2 formulario"id="miformulario" action="/registration" method="POST">
+      <br>
+      <br>
+      <p>
+        Nombre completo:
+        <input data-validation="length alphanumeric"
+          data-validation="length alphanumeric" 
+          data-validation-length="3-35" 
+          data-validation-error-msg="Ingrese su nombre completo (3-35 caracteres)">
+      </p>
+      <br>
+      <br>
+      <p>
+        Email:
+        <input type="text" data-validation="email"
+          data-validation-help="Ingrese una dirección de correo válida"
+          data-validation-error-msg="Ingrese su nombre correo electrónico">
+      </p>
+      <br>
+      <br>
+      <p>
+        Password:
+        <input type="password" id="password" name="password" 
+           data-validation="alphanumeric"
+           data-validation-error-msg="Ingrese su contraseña, deben ser letras y números">
+      </p>
+      <br>
+      <button type="submit" class="btn  btn-lg"><a href="dashboard.html">ENTRAR</a></button>
+      <br>
+      <br>
+    </form>
+
+      </div>
+    </div>
+  </div>
+
+<script src="js/jquery.form-validator.min.js"></script>
+<script>
+  $.validate({
+    form : '#miformulario'
+  });
+</script>
+</body>
+</html>

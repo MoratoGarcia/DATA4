@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Montserrat">
+    <meta name="keyword" content="Dashboard">
+
+    <title>Dashboard for Data4</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+
+    <body>
+        <header class="navbar-default black-bg" >
+          <div class="container-fluid">
+            <div class="navbar-header navbar-collapse">
+              <a href="#Menu"class="navbar-brand fa-inverse" data-toggle="collapse" data-target=".navbar-ex1-collapse" ><i class="fa fa-reorder"></i></a>
+            </div>
+            <h3 class="navbar-text">DASHBOARD FOR DATA 4</h3>
+            <div class="top-menu">
+              <ul class="nav pull-right top-menu">
+                <li><a class="logout" href="">Salir</a></li>
+              </ul>
+            </div>
+          </div>    
+        </header>
+
+        <div class="visible-lg">
+          <nav id="sidebar" role="navigation">
+            <ul class="sidebar-menu">
+              <li>
+                <img src="img/avatar.jpg" alt="Imagen Profile" class="center-block" width="121" height="121">
+                <div class="caption">
+                <h6 class="text-center">Montserrat Morató</h6>
+                </div>
+              </li>
+              <li><a href="#"><i class="fa fa-tachometer"></i>Dashboard</a></li>
+              <li><a href="#Grafica"><i class="fa fa-th"></i>Tabla y Gráfica</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="hidden-lg">
+          <nav id="sidebar" role="navigation">
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav sidebar-menu">
+              <li><a href="#"><i class="fa fa-tachometer"></i>Dashboard</a></li>
+              <li><a href="#Grafica"><i class="fa fa-th"></i>Tabla y Gráfica</a></li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-offset-2">
+              <div class="panel-body">
+                <div class="row text-center">
+                  <table id="datos" border="1" >
+                    <tr>
+                      <th>Días</th>
+                      <th>Visitantes</th>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td></td>  
+                    </tr>
+                    <tr>
+                      <td>14</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                    <td>21</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>28</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>35</td>
+                      <td></td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="embed-container">
+                  <canvas id="lienzo" width="800" height="600">
+                     Su navegador no permite utilizar canvas.
+                  </canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>             
+
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/common-scripts.js"></script>
+      <script src="js/js.js"></script>
+    
+    </body>
+</html>
